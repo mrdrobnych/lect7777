@@ -2,7 +2,6 @@ User: <%= @post.user.email %><br />
 Title: <%= @post.title %><br />
 Body: <%= @post.body %><br />
 
-<p><%= link_to "Write Comment", new_post_postcomment_path(@post.id) %></p>
 
 <% @comments.each do |comment| %>
    <p>
